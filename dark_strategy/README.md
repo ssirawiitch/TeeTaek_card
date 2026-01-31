@@ -1,0 +1,1 @@
+In this folder, we will take a deep research in Dark Strategy
