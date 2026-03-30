@@ -1,17 +1,17 @@
-# 🃏 Pai Tee Taek (ตีแตก): Strategy & Rules
+# Pai Tee Taek (ตีแตก): Strategy & Rules
 
 This document outlines the specific rules, ranking systems, and strategic filters for **Pai Tee Taek**, designed for Monte Carlo simulation and risk analysis.
 
 ---
 
-## 📋 Game Overview
+## Game Overview
 * **Dealing:** Each player is dealt **4 cards**.
 * **The Decider:** The dealer flips **1 center card** from the remaining deck.
 * **Objective:** To win, a player must have at least one card in their hand that matches the **same suit** as the center card and holds a **higher rank**.
 
 ---
 
-## ⚔️ Winning Conditions
+## Winning Conditions
 Victory is determined by a two-tier verification:
 
 1.  **Tier 1 (Suit Match):** You must hold a card of the same suit as the center card.
@@ -21,7 +21,7 @@ Victory is determined by a two-tier verification:
 
 ---
 
-## 🔢 Special Ranking (The "2 Kills A" Rule)
+## Special Ranking (The "2 Kills A" Rule)
 This version of the game uses a non-standard hierarchy to allow for "trap" cards:
 
 | Rank Priority | Card(s) | Result vs. Center Card |
@@ -33,7 +33,7 @@ This version of the game uses a non-standard hierarchy to allow for "trap" cards
 
 ---
 
-## 🌑 The Dark Rules (Risk Management)
+## The Dark Rules (Risk Management)
 
 ### 1. The Discard (Fold)
 * Players may look at their 4 cards and choose to "Fold" before the center card is revealed.
@@ -47,7 +47,7 @@ This version of the game uses a non-standard hierarchy to allow for "trap" cards
 
 ---
 
-## 💡 Play Criteria: "The 10+ Filter"
+## Play Criteria: "The 10+ Filter"
 When playing "Light" (looking at cards), the player only commits to the bet if the following conditions are met:
 
 1.  **Diversity:** The hand must contain at least **3 different suits**.
@@ -56,7 +56,7 @@ When playing "Light" (looking at cards), the player only commits to the bet if t
 
 ---
 
-## 🎯 Simulation Goals (Monte Carlo)
+## Simulation Goals (Monte Carlo)
 
 ### Goal 1: Performance Comparison
 Run a **100,000-round simulation** to compare:
